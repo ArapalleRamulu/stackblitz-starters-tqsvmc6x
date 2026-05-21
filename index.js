@@ -18,7 +18,7 @@ app.set('view engine', 'ejs');
 
 // HOME ROUTE
 app.get('/', (req, res) => {
-  res.send('Home Page Working live');
+  res.send('Home Page Working live dfd');
 });
 
 // IMPORT ROUTES
