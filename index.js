@@ -18,7 +18,7 @@ app.set('view engine', 'ejs');
 
 // HOME ROUTE
 app.get('/', (req, res) => {
-  res.send('Home Page Working');
+  res.send('Home Page Working live');
 });
 
 // IMPORT ROUTES
@@ -28,6 +28,6 @@ const userRoutes = require('./routes/userRoutes');
 app.use('/users', userRoutes);
 
 // START SERVER
-app.listen(3000, () => {
+app.listen(3000, () => { 
   console.log('Server running on port 3000');
 });
